@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search-container{
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    padding: .15em;
+    font-size: 2em;
+    margin: .5em;
+    border-radius: .3em;
+    text-align: center;
+}
+
+.result-container{
+    background-color: black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+img {
+    border-radius: .5em;
+    width: 100%;
+}
+.clickableImage {
+    margin-bottom: 1em;
+}
+
+.card {
+    margin: 20px;
+}
+
+.video-title a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.5em;
+    color: aliceblue;
+    text-decoration: none;
+}
